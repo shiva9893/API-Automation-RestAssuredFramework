@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-20T10:13:53 IST" name="Suite" finished-at="2024-09-20T10:14:43 IST" duration-ms="50586">
+    <groups>
+    </groups>
+    <test started-at="2024-09-20T10:13:53 IST" name="Test" finished-at="2024-09-20T10:14:43 IST" duration-ms="50586">
+      <class name="api.test.Tests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.Tests@4b14c583]" started-at="2024-09-20T10:13:56 IST" name="setup" finished-at="2024-09-20T10:14:06 IST" duration-ms="9668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getUSers(java.lang.String)[pri:0, instance:api.test.Tests@4b14c583]" started-at="2024-09-20T10:14:14 IST" name="getUSers" description="Getting Users" data-provider="Data" finished-at="2024-09-20T10:14:43 IST" duration-ms="28971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUSers -->
+      </class> <!-- api.test.Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

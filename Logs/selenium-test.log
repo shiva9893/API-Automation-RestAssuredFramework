@@ -1,0 +1,31 @@
+2024-09-19 09:54:14 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-19 09:54:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-19 09:54:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-19 09:54:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-19 09:54:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-19 09:54:15 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-19 09:54:16 INFO  Tests:40 - **** Test Starting *****
+2024-09-19 09:54:19 INFO  Tests:46 - **** End Test ****
+2024-09-20 09:36:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-20 09:36:26 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-20 09:36:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-20 09:36:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-20 09:36:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-20 09:36:28 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-20 09:36:29 INFO  Tests:40 - **** Test Starting *****
+2024-09-20 09:36:35 INFO  Tests:46 - **** End Test ****
+2024-09-20 10:08:37 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-20 10:08:38 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-20 10:08:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-20 10:08:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-20 10:08:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-20 10:08:45 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-20 10:08:45 INFO  Tests:40 - **** Test Starting *****
+2024-09-20 10:14:07 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-20 10:14:07 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-20 10:14:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-20 10:14:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-20 10:14:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-20 10:14:13 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2024-09-20 10:14:14 INFO  Tests:40 - **** Test Starting *****
+2024-09-20 10:14:43 INFO  Tests:46 - **** End Test ****
