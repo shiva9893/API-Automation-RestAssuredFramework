@@ -76,8 +76,8 @@ public class RestMethodsResponseValidations {
 
 		Response res = given().contentType("application/json").body(data.toString())
 
-				.when().post("https://reqres.in/api/users");
-		
+				.when().post("https://reqres.in/api/users").then().extract().response();		
+	
 		System.out.println(res.getBody().asPrettyString());
 		Assert.assertEquals(res.getStatusCode(), 201);
 		
