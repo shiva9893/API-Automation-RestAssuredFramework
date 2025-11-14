@@ -1,12 +1,10 @@
 package api.test;
-import static io.restassured.RestAssured.*;
-
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.core.Logger;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.github.javafaker.Faker;
 
 import api.endpoints.APIMethods;
@@ -35,13 +33,16 @@ public class Tests {
 	
 	@Test(description = "Getting Users",dataProvider = "Data",dataProviderClass = DataProviderClasses.class)
 	
-	public void getUSers(String id)
+	public void getUSers(String id) throws JsonProcessingException
 	{
 		logger.info("**** Test Starting *****");
 		pojo = new userPojo();
 		pojo.setId(Integer.valueOf(id))	;
 		
 		response = APIMethods.getUsersByID(pojo.getId());
+		
+		 XmlMapper mapper = new XmlMapper();
+		 mapper.writerWithDefaultPrettyPrinter().writeValueAsString(pojo);
 		response.then().log().all();
 		logger.info("**** End Test ****");
 		
